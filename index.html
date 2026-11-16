@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090b0d">
+  <title>Central dos Jogadores</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <main class="page">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Central dos Jogadores">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="logo_ordo.png" alt="">
+        </span>
+        <span class="brand-name">CENTRAL <b>DOS JOGADORES</b></span>
+      </a>
+      <span class="status"><i></i> HUB DE RPG</span>
+    </header>
+
+    <section class="hero">
+      <div class="eyebrow"><span></span> ORDO REALITAS <span></span></div>
+      <div class="seal" aria-label="Logo oficial da Ordo Realitas">
+        <img src="logo_ordo.png" alt="Logo da Ordo Realitas">
+      </div>
+      <p class="kicker">UM ESPAÇO PARA A MESA</p>
+      <h1>Central dos<br><em>Jogadores</em></h1>
+      <p class="intro">Uma central de recursos para RPG, criada por <strong>Tassiio Menezes</strong> para seus amigos.</p>
+      <div class="rule"><span></span></div>
+    </section>
+
+    <section class="resources" aria-labelledby="resources-title">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">ACESSO RÁPIDO</p>
+          <h2 id="resources-title">Recursos da mesa</h2>
+        </div>
+        <span class="counter">02 MÓDULOS</span>
+      </div>
+
+      <article class="resource-card available">
+        <div class="card-icon phone-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 5h4M11 19h2"/></svg>
+        </div>
+        <div class="card-copy">
+          <span class="card-tag"><i></i> DISPONÍVEL</span>
+          <h3>Dispositivo da Ordem</h3>
+          <p>Acesse o dispositivo digital utilizado pelos agentes durante a campanha.</p>
+        </div>
+        <a class="card-action" id="device-link" href="#" aria-disabled="true">Acessar <span>↗</span></a>
+      </article>
+
+      <article class="resource-card available">
+        <div class="card-icon sheet-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v5h5M10 12h6M10 16h6"/></svg>
+        </div>
+        <div class="card-copy">
+          <span class="card-tag"><i></i> DISPONÍVEL</span>
+          <h3>Criador de Fichas</h3>
+          <p>Acesse o CrisOrdemParanormal para criar e gerenciar as fichas dos seus agentes.</p>
+        </div>
+        <a class="card-action" id="sheets-link" href="#" aria-disabled="true">Acessar <span>↗</span></a>
+      </article>
+      <p class="setup-note" id="setup-note">O acesso ao Dispositivo da Ordem será ativado quando o endereço publicado for configurado.</p>
+    </section>
+
+    <footer>
+      <div class="footer-line"></div>
+      <span>FEITO PARA A MESA • ORDO REALITAS</span>
+      <span>© <span id="year"></span> TASSIIO MENEZES</span>
+    </footer>
+  </main>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

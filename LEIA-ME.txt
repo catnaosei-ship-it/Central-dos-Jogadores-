@@ -1,0 +1,15 @@
+CENTRAL DOS JOGADORES
+=====================
+
+A página inicial reúne dois recursos:
+
+1. Dispositivo da Ordem:
+   https://catnaosei-ship-it.github.io/RPG_Para_amigos/
+
+2. Criador de Fichas (CrisOrdemParanormal):
+   https://crisordemparanormal.com/
+
+Os dois botões abrem os recursos em novas páginas, mantendo a Central dos Jogadores aberta.
+
+Para publicar, envie o conteúdo desta pasta para o Netlify.
+A logo oficial está incluída em logo_ordo.png.
