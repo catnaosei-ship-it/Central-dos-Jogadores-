@@ -11,5 +11,5 @@ A página inicial reúne dois recursos:
 
 Os dois botões abrem os recursos em novas páginas, mantendo a Central dos Jogadores aberta.
 
-Para publicar, envie o conteúdo desta pasta para o Netlify.
+Para publicar, envie o conteúdo desta pasta para o github.
 A logo oficial está incluída em logo_ordo.png.
